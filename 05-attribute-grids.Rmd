@@ -76,17 +76,18 @@ aguion_barnacle <- read_sheet(ss = "https://docs.google.com/spreadsheets/d/1WfGs
     importance == "Low" ~ 1,
     importance == "Medium" ~ 2,
     importance == "High" ~ 3)) %>% 
-  mutate(new_importance = case_when(
+  mutate(Importance = case_when(
     numeric_importance == 1 ~ "1_Low",
     numeric_importance == 2 ~ "2_Medium",
-    numeric_importance == 3 ~ "3_High"
+    numeric_importance == 3 ~ "3_High",
+    numeric_importance == "NA" ~ "0_NA"
   )) %>% 
   # Create a new column to convert numeric scores into values
   mutate(score_value = case_when(
     score == 1 ~ "1_Low",
-    score == 2 ~ "2_Medium",
-    score == 3 ~ "2_Medium",
-    score == 4 ~ "3_High",
+    score == 2 ~ "2/3_Medium",
+    score == 3 ~ "2/3_Medium",
+    score == 4 ~ "4_High",
     score == "NA" ~ "0_NA"))
 
 
@@ -133,18 +134,19 @@ burden_sardine <- read_sheet(ss = "https://docs.google.com/spreadsheets/d/1TkB-P
     importance == "Low" ~ 1,
     importance == "Medium" ~ 2,
     importance == "High" ~ 3)) %>% 
-  mutate(new_importance = case_when(
+  mutate(Importance = case_when(
     numeric_importance == 1 ~ "1_Low",
     numeric_importance == 2 ~ "2_Medium",
-    numeric_importance == 3 ~ "3_High"
+    numeric_importance == 3 ~ "3_High",
+    numeric_importance == "NA" ~ "0_NA"
   )) %>% 
   # Create a new column to convert numeric scores into values
   mutate(score_value = case_when(
     score == 1 ~ "1_Low",
-    score == 2 ~ "2_Medium",
-    score == 3 ~ "2_Medium",
-    score == 4 ~ "3_High",
-    score == "NA" ~ "0_NA"))
+    score == 2 ~ "2/3_Medium",
+    score == 3 ~ "2/3_Medium",
+    score == 4 ~ "4_High",
+    score == NA ~ "0_NA"))
 
 
 #######################################################################################################################
@@ -190,17 +192,18 @@ dickey_collas_eur <- read_sheet(ss = "https://docs.google.com/spreadsheets/d/1hf
     importance == "Low" ~ 1,
     importance == "Medium" ~ 2,
     importance == "High" ~ 3)) %>% 
-  mutate(new_importance = case_when(
+  mutate(Importance = case_when(
     numeric_importance == 1 ~ "1_Low",
     numeric_importance == 2 ~ "2_Medium",
-    numeric_importance == 3 ~ "3_High"
+    numeric_importance == 3 ~ "3_High",
+    numeric_importance == "NA" ~ "0_NA"
   )) %>% 
   # Create a new column to convert numeric scores into values
   mutate(score_value = case_when(
     score == 1 ~ "1_Low",
-    score == 2 ~ "2_Medium",
-    score == 3 ~ "2_Medium",
-    score == 4 ~ "3_High",
+    score == 2 ~ "2/3_Medium",
+    score == 3 ~ "2/3_Medium",
+    score == 4 ~ "4_High",
     score == "NA" ~ "0_NA"))
 
 
@@ -247,17 +250,18 @@ eurich_clam <- read_sheet(ss = "https://docs.google.com/spreadsheets/d/1ZEIev1lc
     importance == "Low" ~ 1,
     importance == "Medium" ~ 2,
     importance == "High" ~ 3)) %>% 
-  mutate(new_importance = case_when(
+  mutate(Importance = case_when(
     numeric_importance == 1 ~ "1_Low",
     numeric_importance == 2 ~ "2_Medium",
-    numeric_importance == 3 ~ "3_High"
+    numeric_importance == 3 ~ "3_High",
+    numeric_importance == "NA" ~ "0_NA"
   )) %>% 
   # Create a new column to convert numeric scores into values
   mutate(score_value = case_when(
     score == 1 ~ "1_Low",
-    score == 2 ~ "2_Medium",
-    score == 3 ~ "2_Medium",
-    score == 4 ~ "3_High",
+    score == 2 ~ "2/3_Medium",
+    score == 3 ~ "2/3_Medium",
+    score == 4 ~ "4_High",
     score == "NA" ~ "0_NA"))
 
 
@@ -304,17 +308,18 @@ free_crab <- read_sheet(ss = "https://docs.google.com/spreadsheets/d/12zMb5el0QA
     importance == "Low" ~ 1,
     importance == "Medium" ~ 2,
     importance == "High" ~ 3)) %>% 
-  mutate(new_importance = case_when(
+  mutate(Importance = case_when(
     numeric_importance == 1 ~ "1_Low",
     numeric_importance == 2 ~ "2_Medium",
-    numeric_importance == 3 ~ "3_High"
+    numeric_importance == 3 ~ "3_High",
+    numeric_importance == "NA" ~ "0_NA"
   )) %>% 
   # Create a new column to convert numeric scores into values
   mutate(score_value = case_when(
     score == 1 ~ "1_Low",
-    score == 2 ~ "2_Medium",
-    score == 3 ~ "2_Medium",
-    score == 4 ~ "3_High",
+    score == 2 ~ "2/3_Medium",
+    score == 3 ~ "2/3_Medium",
+    score == 4 ~ "4_High",
     score == "NA" ~ "0_NA"))
 
 
@@ -362,17 +367,18 @@ friedman_fiji <- read_sheet(ss = "https://docs.google.com/spreadsheets/d/13fgkP1
     importance == "Low" ~ 1,
     importance == "Medium" ~ 2,
     importance == "High" ~ 3)) %>% 
-  mutate(new_importance = case_when(
+  mutate(Importance = case_when(
     numeric_importance == 1 ~ "1_Low",
     numeric_importance == 2 ~ "2_Medium",
-    numeric_importance == 3 ~ "3_High"
+    numeric_importance == 3 ~ "3_High",
+    numeric_importance == "NA" ~ "0_NA"
   )) %>% 
   # Create a new column to convert numeric scores into values
   mutate(score_value = case_when(
     score == 1 ~ "1_Low",
-    score == 2 ~ "2_Medium",
-    score == 3 ~ "2_Medium",
-    score == 4 ~ "3_High",
+    score == 2 ~ "2/3_Medium",
+    score == 3 ~ "2/3_Medium",
+    score == 4 ~ "4_High",
     score == "NA" ~ "0_NA"))
 
 
@@ -420,17 +426,18 @@ golden_madagascar <- read_sheet(ss = "https://docs.google.com/spreadsheets/d/1w9
     importance == "Low" ~ 1,
     importance == "Medium" ~ 2,
     importance == "High" ~ 3)) %>% 
-  mutate(new_importance = case_when(
+  mutate(Importance = case_when(
     numeric_importance == 1 ~ "1_Low",
     numeric_importance == 2 ~ "2_Medium",
-    numeric_importance == 3 ~ "3_High"
+    numeric_importance == 3 ~ "3_High",
+    numeric_importance == "NA" ~ "0_NA"
   )) %>% 
   # Create a new column to convert numeric scores into values
   mutate(score_value = case_when(
     score == 1 ~ "1_Low",
-    score == 2 ~ "2_Medium",
-    score == 3 ~ "2_Medium",
-    score == 4 ~ "3_High",
+    score == 2 ~ "2/3_Medium",
+    score == 3 ~ "2/3_Medium",
+    score == 4 ~ "4_High",
     score == "NA" ~ "0_NA"))
 
 
@@ -478,17 +485,18 @@ hollowed_bering_sea <- read_sheet(ss = "https://docs.google.com/spreadsheets/d/1
     importance == "Low" ~ 1,
     importance == "Medium" ~ 2,
     importance == "High" ~ 3)) %>% 
-  mutate(new_importance = case_when(
+  mutate(Importance = case_when(
     numeric_importance == 1 ~ "1_Low",
     numeric_importance == 2 ~ "2_Medium",
-    numeric_importance == 3 ~ "3_High"
+    numeric_importance == 3 ~ "3_High",
+    numeric_importance == "NA" ~ "0_NA"
   )) %>% 
   # Create a new column to convert numeric scores into values
   mutate(score_value = case_when(
     score == 1 ~ "1_Low",
-    score == 2 ~ "2_Medium",
-    score == 3 ~ "2_Medium",
-    score == 4 ~ "3_High",
+    score == 2 ~ "2/3_Medium",
+    score == 3 ~ "2/3_Medium",
+    score == 4 ~ "4_High",
     score == "NA" ~ "0_NA"))
 
 
@@ -536,17 +544,18 @@ kisara_squid <- read_sheet(ss = "https://docs.google.com/spreadsheets/d/1RX1iUmE
     importance == "Low" ~ 1,
     importance == "Medium" ~ 2,
     importance == "High" ~ 3)) %>% 
-  mutate(new_importance = case_when(
+  mutate(Importance = case_when(
     numeric_importance == 1 ~ "1_Low",
     numeric_importance == 2 ~ "2_Medium",
-    numeric_importance == 3 ~ "3_High"
+    numeric_importance == 3 ~ "3_High",
+    numeric_importance == "NA" ~ "0_NA"
   )) %>% 
   # Create a new column to convert numeric scores into values
   mutate(score_value = case_when(
     score == 1 ~ "1_Low",
-    score == 2 ~ "2_Medium",
-    score == 3 ~ "2_Medium",
-    score == 4 ~ "3_High",
+    score == 2 ~ "2/3_Medium",
+    score == 3 ~ "2/3_Medium",
+    score == 4 ~ "4_High",
     score == "NA" ~ "0_NA"))
 
 
@@ -593,17 +602,18 @@ kleisner_jfi <- read_sheet(ss = "https://docs.google.com/spreadsheets/d/1YM1wc6F
     importance == "Low" ~ 1,
     importance == "Medium" ~ 2,
     importance == "High" ~ 3)) %>% 
-  mutate(new_importance = case_when(
+  mutate(Importance = case_when(
     numeric_importance == 1 ~ "1_Low",
     numeric_importance == 2 ~ "2_Medium",
-    numeric_importance == 3 ~ "3_High"
+    numeric_importance == 3 ~ "3_High",
+    numeric_importance == "NA" ~ "0_NA"
   )) %>% 
   # Create a new column to convert numeric scores into values
   mutate(score_value = case_when(
     score == 1 ~ "1_Low",
-    score == 2 ~ "2_Medium",
-    score == 3 ~ "2_Medium",
-    score == 4 ~ "3_High",
+    score == 2 ~ "2/3_Medium",
+    score == 3 ~ "2/3_Medium",
+    score == 4 ~ "4_High",
     score == "NA" ~ "0_NA"))
 
 
@@ -650,17 +660,18 @@ lau_png <- read_sheet(ss = "https://docs.google.com/spreadsheets/d/18po7Pgq5Od6Q
     importance == "Low" ~ 1,
     importance == "Medium" ~ 2,
     importance == "High" ~ 3)) %>% 
-  mutate(new_importance = case_when(
+  mutate(Importance = case_when(
     numeric_importance == 1 ~ "1_Low",
     numeric_importance == 2 ~ "2_Medium",
-    numeric_importance == 3 ~ "3_High"
+    numeric_importance == 3 ~ "3_High",
+    numeric_importance == "NA" ~ "0_NA"
   )) %>% 
   # Create a new column to convert numeric scores into values
   mutate(score_value = case_when(
     score == 1 ~ "1_Low",
-    score == 2 ~ "2_Medium",
-    score == 3 ~ "2_Medium",
-    score == 4 ~ "3_High",
+    score == 2 ~ "2/3_Medium",
+    score == 3 ~ "2/3_Medium",
+    score == 4 ~ "4_High",
     score == "NA" ~ "0_NA"))
 
 
@@ -707,17 +718,18 @@ mason_iceland <- read_sheet(ss = "https://docs.google.com/spreadsheets/d/1ZPs5ow
     importance == "Low" ~ 1,
     importance == "Medium" ~ 2,
     importance == "High" ~ 3)) %>% 
-  mutate(new_importance = case_when(
+  mutate(Importance = case_when(
     numeric_importance == 1 ~ "1_Low",
     numeric_importance == 2 ~ "2_Medium",
-    numeric_importance == 3 ~ "3_High"
+    numeric_importance == 3 ~ "3_High",
+    numeric_importance == "NA" ~ "0_NA"
   )) %>% 
   # Create a new column to convert numeric scores into values
   mutate(score_value = case_when(
     score == 1 ~ "1_Low",
-    score == 2 ~ "2_Medium",
-    score == 3 ~ "2_Medium",
-    score == 4 ~ "3_High",
+    score == 2 ~ "2/3_Medium",
+    score == 3 ~ "2/3_Medium",
+    score == 4 ~ "4_High",
     score == "NA" ~ "0_NA"))
 
 
@@ -764,17 +776,18 @@ mills_lobster <- read_sheet(ss = "https://docs.google.com/spreadsheets/d/1HEPT54
     importance == "Low" ~ 1,
     importance == "Medium" ~ 2,
     importance == "High" ~ 3)) %>% 
-  mutate(new_importance = case_when(
+  mutate(Importance = case_when(
     numeric_importance == 1 ~ "1_Low",
     numeric_importance == 2 ~ "2_Medium",
-    numeric_importance == 3 ~ "3_High"
+    numeric_importance == 3 ~ "3_High",
+    numeric_importance == "NA" ~ "0_NA"
   )) %>% 
   # Create a new column to convert numeric scores into values
   mutate(score_value = case_when(
     score == 1 ~ "1_Low",
-    score == 2 ~ "2_Medium",
-    score == 3 ~ "2_Medium",
-    score == 4 ~ "3_High",
+    score == 2 ~ "2/3_Medium",
+    score == 3 ~ "2/3_Medium",
+    score == 4 ~ "4_High",
     score == "NA" ~ "0_NA")) 
 
 
@@ -821,17 +834,18 @@ pecl_lobster <- read_sheet(ss = "https://docs.google.com/spreadsheets/d/11Z-SLlA
     importance == "Low" ~ 1,
     importance == "Medium" ~ 2,
     importance == "High" ~ 3)) %>% 
-  mutate(new_importance = case_when(
+  mutate(Importance = case_when(
     numeric_importance == 1 ~ "1_Low",
     numeric_importance == 2 ~ "2_Medium",
-    numeric_importance == 3 ~ "3_High"
+    numeric_importance == 3 ~ "3_High",
+    numeric_importance == "NA" ~ "0_NA"
   )) %>% 
   # Create a new column to convert numeric scores into values
   mutate(score_value = case_when(
     score == 1 ~ "1_Low",
-    score == 2 ~ "2_Medium",
-    score == 3 ~ "2_Medium",
-    score == 4 ~ "3_High",
+    score == 2 ~ "2/3_Medium",
+    score == 3 ~ "2/3_Medium",
+    score == 4 ~ "4_High",
     score == "NA" ~ "0_NA"))
 
 
@@ -936,17 +950,18 @@ tokunaga_lobster <- read_sheet(ss = "https://docs.google.com/spreadsheets/d/1jgF
     importance == "Low" ~ 1,
     importance == "Medium" ~ 2,
     importance == "High" ~ 3)) %>% 
-  mutate(new_importance = case_when(
+  mutate(Importance = case_when(
     numeric_importance == 1 ~ "1_Low",
     numeric_importance == 2 ~ "2_Medium",
-    numeric_importance == 3 ~ "3_High"
+    numeric_importance == 3 ~ "3_High",
+    numeric_importance == "NA" ~ "0_NA"
   )) %>% 
   # Create a new column to convert numeric scores into values
   mutate(score_value = case_when(
     score == 1 ~ "1_Low",
-    score == 2 ~ "2_Medium",
-    score == 3 ~ "2_Medium",
-    score == 4 ~ "3_High",
+    score == 2 ~ "2/3_Medium",
+    score == 3 ~ "2/3_Medium",
+    score == 4 ~ "4_High",
     score == "NA" ~ "0_NA"))
 
 
@@ -993,17 +1008,18 @@ westfall_hms <- read_sheet(ss = "https://docs.google.com/spreadsheets/d/1DMx0Ux9
     importance == "Low" ~ 1,
     importance == "Medium" ~ 2,
     importance == "High" ~ 3)) %>% 
-  mutate(new_importance = case_when(
+  mutate(Importance = case_when(
     numeric_importance == 1 ~ "1_Low",
     numeric_importance == 2 ~ "2_Medium",
-    numeric_importance == 3 ~ "3_High"
+    numeric_importance == 3 ~ "3_High",
+    numeric_importance == "NA" ~ "0_NA"
   )) %>% 
   # Create a new column to convert numeric scores into values
   mutate(score_value = case_when(
     score == 1 ~ "1_Low",
-    score == 2 ~ "2_Medium",
-    score == 3 ~ "2_Medium",
-    score == 4 ~ "3_High",
+    score == 2 ~ "2/3_Medium",
+    score == 3 ~ "2/3_Medium",
+    score == 4 ~ "4_High",
     score == "NA" ~ "0_NA"))
 
 
@@ -1050,17 +1066,18 @@ zhao_moorea <- read_sheet(ss = "https://docs.google.com/spreadsheets/d/1-Muz76--
     importance == "Low" ~ 1,
     importance == "Medium" ~ 2,
     importance == "High" ~ 3)) %>% 
-  mutate(new_importance = case_when(
+  mutate(Importance = case_when(
     numeric_importance == 1 ~ "1_Low",
     numeric_importance == 2 ~ "2_Medium",
-    numeric_importance == 3 ~ "3_High"
+    numeric_importance == 3 ~ "3_High",
+    numeric_importance == "NA" ~ "0_NA"
   )) %>% 
   # Create a new column to convert numeric scores into values
   mutate(score_value = case_when(
     score == 1 ~ "1_Low",
-    score == 2 ~ "2_Medium",
-    score == 3 ~ "2_Medium",
-    score == 4 ~ "3_High",
+    score == 2 ~ "2/3_Medium",
+    score == 3 ~ "2/3_Medium",
+    score == 4 ~ "4_High",
     score == "NA" ~ "0_NA"))
   
 ```
@@ -1076,11 +1093,11 @@ Additionally, attributes with an "*" next to them indicate that the user respond
 
 ```{r}
 aguion_table <- aguion_barnacle %>% 
-  select("new_importance", "score_value", "attribute") %>% 
-  group_by(score_value, new_importance) %>% 
+  select("Importance", "score_value", "attribute") %>% 
+  group_by(score_value, Importance) %>% 
   summarize(attribute = str_c(attribute)) %>% 
   pivot_wider(names_from = c(score_value), values_from = attribute, values_fn = list) %>% 
-  rename(" " = new_importance) 
+  arrange(Importance) 
   
 
 # Create table
@@ -1098,11 +1115,11 @@ aguion_table %>%
 ### Go up to code above and fix once columns have been completed
 
 burden_table <- burden_sardine %>% 
-  select("new_importance", "score_value", "attribute") %>% 
-  group_by(score_value, new_importance) %>% 
+  select("Importance", "score_value", "attribute") %>% 
+  group_by(score_value, Importance) %>% 
   summarize(attribute = str_c(attribute)) %>% 
   pivot_wider(names_from = c(score_value), values_from = attribute, values_fn = list) %>% 
-  rename(" " = new_importance) 
+  arrange(Importance)
   
 
 # Create table
@@ -1118,11 +1135,11 @@ burden_table %>%
 
 ```{r}
 dickey_collas_table <- dickey_collas_eur %>% 
-  select("new_importance", "score_value", "attribute") %>% 
-  group_by(score_value, new_importance) %>% 
+  select("Importance", "score_value", "attribute") %>% 
+  group_by(score_value, Importance) %>% 
   summarize(attribute = str_c(attribute)) %>% 
   pivot_wider(names_from = c(score_value), values_from = attribute, values_fn = list) %>% 
-  rename(" " = new_importance) 
+  arrange(Importance) 
   
 
 # Create table
@@ -1138,11 +1155,11 @@ dickey_collas_table %>%
 
 ```{r}
 eurich_table <- eurich_clam %>% 
-  select("new_importance", "score_value", "attribute") %>% 
-  group_by(score_value, new_importance) %>% 
+  select("Importance", "score_value", "attribute") %>% 
+  group_by(score_value, Importance) %>% 
   summarize(attribute = str_c(attribute)) %>% 
   pivot_wider(names_from = c(score_value), values_from = attribute, values_fn = list) %>% 
-  rename(" " = new_importance) 
+  arrange(Importance) 
   
 
 # Create table
@@ -1158,11 +1175,11 @@ eurich_table %>%
 
 ```{r}
 free_table <- free_crab %>% 
-  select("new_importance", "score_value", "attribute") %>% 
-  group_by(score_value, new_importance) %>% 
+  select("Importance", "score_value", "attribute") %>% 
+  group_by(score_value, Importance) %>% 
   summarize(attribute = str_c(attribute)) %>% 
   pivot_wider(names_from = c(score_value), values_from = attribute, values_fn = list) %>% 
-  rename(" " = new_importance) 
+  arrange(Importance) 
   
 
 # Create table
@@ -1178,11 +1195,11 @@ free_table %>%
 
 ```{r}
 friedman_table <- friedman_fiji %>% 
-  select("new_importance", "score_value", "attribute") %>% 
-  group_by(score_value, new_importance) %>% 
+  select("Importance", "score_value", "attribute") %>% 
+  group_by(score_value, Importance) %>% 
   summarize(attribute = str_c(attribute)) %>% 
   pivot_wider(names_from = c(score_value), values_from = attribute, values_fn = list) %>% 
-  rename(" " = new_importance) 
+  arrange(Importance) 
   
 
 # Create table
@@ -1198,11 +1215,11 @@ friedman_table %>%
 
 ```{r}
 golden_table <- golden_madagascar %>% 
-  select("new_importance", "score_value", "attribute") %>% 
-  group_by(score_value, new_importance) %>% 
+  select("Importance", "score_value", "attribute") %>% 
+  group_by(score_value, Importance) %>% 
   summarize(attribute = str_c(attribute)) %>% 
   pivot_wider(names_from = c(score_value), values_from = attribute, values_fn = list) %>% 
-  rename(" " = new_importance) 
+  arrange(Importance) 
   
 
 # Create table
@@ -1218,11 +1235,11 @@ golden_table %>%
 
 ```{r}
 hollowed_table <- hollowed_bering_sea %>% 
-  select("new_importance", "score_value", "attribute") %>% 
-  group_by(score_value, new_importance) %>% 
+  select("Importance", "score_value", "attribute") %>% 
+  group_by(score_value, Importance) %>% 
   summarize(attribute = str_c(attribute)) %>% 
   pivot_wider(names_from = c(score_value), values_from = attribute, values_fn = list) %>% 
-  rename(" " = new_importance)
+  arrange(Importance)
   
 
 # Create table
@@ -1238,11 +1255,11 @@ hollowed_table %>%
 
 ```{r}
 kisara_table <- kisara_squid %>% 
-  select("new_importance", "score_value", "attribute") %>% 
-  group_by(score_value, new_importance) %>% 
+  select("Importance", "score_value", "attribute") %>% 
+  group_by(score_value, Importance) %>% 
   summarize(attribute = str_c(attribute)) %>% 
   pivot_wider(names_from = c(score_value), values_from = attribute, values_fn = list) %>% 
-  rename(" " = new_importance) 
+  arrange(Importance) 
   
 
 # Create table
@@ -1258,11 +1275,11 @@ kisara_table %>%
 
 ```{r}
 kleisner_table <- kleisner_jfi %>% 
-  select("new_importance", "score_value", "attribute") %>% 
-  group_by(score_value, new_importance) %>% 
+  select("Importance", "score_value", "attribute") %>% 
+  group_by(score_value, Importance) %>% 
   summarize(attribute = str_c(attribute)) %>% 
   pivot_wider(names_from = c(score_value), values_from = attribute, values_fn = list) %>% 
-  rename(" " = new_importance) 
+  arrange(Importance) 
   
 
 # Create table
@@ -1278,11 +1295,11 @@ kleisner_table %>%
 
 ```{r}
 lau_table <- lau_png %>% 
-  select("new_importance", "score_value", "attribute") %>% 
-  group_by(score_value, new_importance) %>% 
+  select("Importance", "score_value", "attribute") %>% 
+  group_by(score_value, Importance) %>% 
   summarize(attribute = str_c(attribute)) %>% 
   pivot_wider(names_from = c(score_value), values_from = attribute, values_fn = list) %>% 
-  rename(" " = new_importance) 
+  arrange(Importance) 
   
 
 # Create table
@@ -1298,11 +1315,11 @@ lau_table %>%
 
 ```{r}
 mason_table <- mason_iceland %>% 
-  select("new_importance", "score_value", "attribute") %>% 
-  group_by(score_value, new_importance) %>% 
+  select("Importance", "score_value", "attribute") %>% 
+  group_by(score_value, Importance) %>% 
   summarize(attribute = str_c(attribute)) %>% 
   pivot_wider(names_from = c(score_value), values_from = attribute, values_fn = list) %>% 
-  rename(" " = new_importance) 
+  arrange(Importance) 
   
 
 # Create table
@@ -1318,11 +1335,11 @@ mason_table %>%
 
 ```{r}
 mills_table <- mills_lobster %>% 
-  select("new_importance", "score_value", "attribute") %>% 
-  group_by(score_value, new_importance) %>% 
+  select("Importance", "score_value", "attribute") %>% 
+  group_by(score_value, Importance) %>% 
   summarize(attribute = str_c(attribute)) %>% 
   pivot_wider(names_from = c(score_value), values_from = attribute, values_fn = list) %>% 
-  rename(" " = new_importance) 
+  arrange(Importance) 
   
 
 mills_table %>% 
@@ -1337,11 +1354,11 @@ mills_table %>%
 
 ```{r}
 pecl_table <- pecl_lobster %>% 
-  select("new_importance", "score_value", "attribute") %>% 
-  group_by(score_value, new_importance) %>% 
+  select("Importance", "score_value", "attribute") %>% 
+  group_by(score_value, Importance) %>% 
   summarize(attribute = str_c(attribute)) %>% 
   pivot_wider(names_from = c(score_value), values_from = attribute, values_fn = list) %>% 
-  rename(" " = new_importance) 
+  arrange(Importance) 
   
 
 # Create table
@@ -1357,11 +1374,11 @@ pecl_table %>%
 
 ```{r}
 tokunaga_table <- tokunaga_lobster %>% 
-  select("new_importance", "score_value", "attribute") %>% 
-  group_by(score_value, new_importance) %>% 
+  select("Importance", "score_value", "attribute") %>% 
+  group_by(score_value, Importance) %>% 
   summarize(attribute = str_c(attribute)) %>% 
   pivot_wider(names_from = c(score_value), values_from = attribute, values_fn = list) %>% 
-  rename(" " = new_importance) 
+  arrange(Importance) 
   
 
 # Create table
@@ -1377,11 +1394,11 @@ tokunaga_table %>%
 
 ```{r}
 westfall_table <- westfall_hms %>% 
-  select("new_importance", "score_value", "attribute") %>% 
-  group_by(score_value, new_importance) %>% 
+  select("Importance", "score_value", "attribute") %>% 
+  group_by(score_value, Importance) %>% 
   summarize(attribute = str_c(attribute)) %>% 
   pivot_wider(names_from = c(score_value), values_from = attribute, values_fn = list) %>% 
-  rename(" " = new_importance) 
+  arrange(Importance) 
   
 
 # Create table
@@ -1397,11 +1414,11 @@ westfall_table %>%
 
 ```{r}
 zhao_table <- zhao_moorea %>% 
-  select("new_importance", "score_value", "attribute") %>% 
-  group_by(score_value, new_importance) %>% 
+  select("Importance", "score_value", "attribute") %>% 
+  group_by(score_value, Importance) %>% 
   summarize(attribute = str_c(attribute)) %>% 
   pivot_wider(names_from = c(score_value), values_from = attribute, values_fn = list) %>% 
-  rename(" " = new_importance) 
+  arrange(Importance) 
   
 
 # Create table
