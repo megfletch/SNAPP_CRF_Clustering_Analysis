@@ -163,11 +163,11 @@ Ecological,Organization,Friedman,Friedman14,Ecosystem connectivity,Good,High,NA,
 Ecological,Organization,Friedman,Friedman15,Population modularity,Good,Medium,NA,2,3,2,Ecological_Population_modularity
 Social-economic,Assets,Friedman,Friedman17,Wealth and reserves,Excellent,High,NA,3,4,3,Social_economic_Wealth_and_reserves
 Social-economic,Assets,Friedman,Friedman18,Economic diversity,Excellent,High,NA,2,4,3,Social_economic_Economic_diversity
-Social-economic,Assets,Friedman,Friedman19,Social diversity,Excellent,Medium,NA,4,4,2,Social_economic_Social_diversity
-Social-economic,Flexibility,Friedman,Friedman21,Flexible and agile infrstructure,Excellent,High,NA,2,4,3,Social_economic_Flexible_and_agile_infrstructure
+Social-economic,Assets,Friedman,Friedman19,Social diversity,Excellent,Medium,NA,3,4,2,Social_economic_Social_diversity
+Social-economic,Flexibility,Friedman,Friedman21,Flexible and agile infrstructure,Excellent,High,NA,4,4,3,Social_economic_Flexible_and_agile_infrstructure
 Social-economic,Flexibility,Friedman,Friedman22,Mobility,Excellent,Medium,NA,2,4,2,Social_economic_Mobility
 Social-economic,Flexibility,Friedman,Friedman23,Economic opportunity,Excellent,High,NA,2,4,3,Social_economic_Economic_opportunity
-Social-economic,Flexibility,Friedman,Friedman24,Resilience mindset,Good,Low,NA,2,3,1,Social_economic_Resilience_mindset
+Social-economic,Flexibility,Friedman,Friedman24,Resilience mindset,Good,Medium,NA,3,3,2,Social_economic_Resilience_mindset
 Social-economic,Flexibility,Friedman,Friedman25,Place attachment,Excellent,High,NA,4,4,3,Social_economic_Place_attachment
 Social-economic,Organization,Friedman,Friedman27,Social capital,Excellent,High,NA,4,4,3,Social_economic_Social_capital
 Social-economic,Organization,Friedman,Friedman28,Technology transfer,Excellent,High,NA,2,4,3,Social_economic_Technology_transfer
@@ -175,7 +175,7 @@ Social-economic,Organization,Friedman,Friedman29,Modular infrastructure,Excellen
 Social-economic,Learning,Friedman,Friedman31,Knowledge diversity,Excellent,High,NA,3,4,3,Social_economic_Knowledge_diversity
 Social-economic,Learning,Friedman,Friedman32,Knowledge access,Excellent,High,NA,2,4,3,Social_economic_Knowledge_access
 Social-economic,Learning,Friedman,Friedman33,Learning capacity,Good,High,NA,3,3,3,Social_economic_Learning_capacity
-Social-economic,Agency,Friedman,Friedman35,Agency,Good,Medium,NA,2,3,2,Social_economic_Agency
+Social-economic,Agency,Friedman,Friedman35,Agency,Good,Medium,NA,3,3,2,Social_economic_Agency
 Goverance,Flexibility,Friedman,Friedman37,Responsive,Excellent,High,NA,2,4,3,Goverance_Responsive
 Goverance,Organization,Friedman,Friedman39,Participatory,Excellent,High,NA,3,4,3,Goverance_Participatory
 Goverance,Organization,Friedman,Friedman40,Equitable and inclusive,Good,High,NA,2,3,3,Goverance_Equitable_and_inclusive
@@ -257,16 +257,6 @@ Goverance,Organization,Hollowed,Hollowed44,Polycentric,Excellent,Low,yes,2,4,1,G
 Goverance,Organization,Hollowed,Hollowed45,Cross-scale integration,Fair,Medium,yes,3,2,2,Goverance_Cross_scale_integration
 Goverance,Learning,Hollowed,Hollowed47,Adaptive,Excellent,High,yes,4,4,3,Goverance_Adaptive
 Goverance,Agency,Hollowed,Hollowed49,Leadership and initiative,Fair,Medium,yes,3,2,2,Goverance_Leadership_and_initiative
-Ecological,Assets,Kisara,Kisara1,Population abundance,Low,Medium,no,1,1,2,Ecological_Population_abundance
-Ecological,Assets,Kisara,Kisara2,Age structure,Excellent,Low,no,4,4,1,Ecological_Age_structure
-Ecological,Assets,Kisara,Kisara4,Species diversity,Excellent,High,yes,4,4,3,Ecological_Species_diversity
-Ecological,Flexibility,Kisara,Kisara6,Adult mobility,Fair,Medium,no,4,2,2,Ecological_Adult_mobility
-Ecological,Flexibility,Kisara,Kisara9,Dietary flexibility,Good,Medium,NA,4,3,2,Ecological_Dietary_flexibility
-Ecological,Flexibility,Kisara,Kisara10,Habitat diversity,Excellent,High,yes,2,4,3,Ecological_Habitat_diversity
-Ecological,Organization,Kisara,Kisara15,Population modularity,Good,Low,yes,4,3,1,Ecological_Population_modularity
-Social-economic,Organization,Kisara,Kisara27,Social capital,Fair,High,yes,3,2,3,Social_economic_Social_capital
-Social-economic,Agency,Kisara,Kisara35,Agency,Fair,High,yes,3,2,3,Social_economic_Agency
-Goverance,Organization,Kisara,Kisara44,Polycentric,Fair,Low,NA,2,2,1,Goverance_Polycentric
 Ecological,Assets,Kleisner,Kleisner1,Population abundance,Fair,High,yes,3,2,3,Ecological_Population_abundance
 Ecological,Assets,Kleisner,Kleisner2,Age structure,Fair,High,yes,3,2,3,Ecological_Age_structure
 Ecological,Assets,Kleisner,Kleisner3,Genetic diversity,Fair,High,NA,2,2,3,Ecological_Genetic_diversity
@@ -453,7 +443,7 @@ Goverance,Learning,Pecl,Pecl47,Adaptive,Good,High,yes,2,3,3,Goverance_Adaptive
 Goverance,Agency,Pecl,Pecl49,Leadership and initiative,Good,High,yes,2,3,3,Goverance_Leadership_and_initiative
 Ecological,Assets,Tokunaga,Tokunaga1,Population abundance,Low,Medium,yes,3,1,2,Ecological_Population_abundance
 Ecological,Assets,Tokunaga,Tokunaga2,Age structure,Good,Medium,yes,3,3,2,Ecological_Age_structure
-Ecological,Assets,Tokunaga,Tokunaga3,Genetic diversity,Excellent,High,yes,1,4,3,Ecological_Genetic_diversity
+Ecological,Assets,Tokunaga,Tokunaga3,Genetic diversity,Excellent,High,yes,3,4,3,Ecological_Genetic_diversity
 Ecological,Assets,Tokunaga,Tokunaga4,Species diversity,Low,Medium,yes,2,1,2,Ecological_Species_diversity
 Ecological,Flexibility,Tokunaga,Tokunaga6,Adult mobility,Excellent,High,no,1,4,3,Ecological_Adult_mobility
 Ecological,Flexibility,Tokunaga,Tokunaga7,Larval dispersal,Excellent,High,yes,3,4,3,Ecological_Larval_dispersal

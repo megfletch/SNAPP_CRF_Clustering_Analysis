@@ -163,11 +163,11 @@ Ecological,Organization,Friedman,Friedman14,Ecosystem connectivity,3,Good,High,N
 Ecological,Organization,Friedman,Friedman15,Population modularity,2,Good,Medium,NA,2,3,2
 Social-economic,Assets,Friedman,Friedman17,Wealth and reserves,3,Excellent,High,NA,3,4,3
 Social-economic,Assets,Friedman,Friedman18,Economic diversity,2,Excellent,High,NA,2,4,3
-Social-economic,Assets,Friedman,Friedman19,Social diversity,4,Excellent,Medium,NA,4,4,2
-Social-economic,Flexibility,Friedman,Friedman21,Flexible and agile infrstructure,2,Excellent,High,NA,2,4,3
+Social-economic,Assets,Friedman,Friedman19,Social diversity,3,Excellent,Medium,NA,3,4,2
+Social-economic,Flexibility,Friedman,Friedman21,Flexible and agile infrstructure,4,Excellent,High,NA,4,4,3
 Social-economic,Flexibility,Friedman,Friedman22,Mobility,2,Excellent,Medium,NA,2,4,2
 Social-economic,Flexibility,Friedman,Friedman23,Economic opportunity,2,Excellent,High,NA,2,4,3
-Social-economic,Flexibility,Friedman,Friedman24,Resilience mindset,2,Good,Low,NA,2,3,1
+Social-economic,Flexibility,Friedman,Friedman24,Resilience mindset,3,Good,Medium,NA,3,3,2
 Social-economic,Flexibility,Friedman,Friedman25,Place attachment,4,Excellent,High,NA,4,4,3
 Social-economic,Organization,Friedman,Friedman27,Social capital,4,Excellent,High,NA,4,4,3
 Social-economic,Organization,Friedman,Friedman28,Technology transfer,2,Excellent,High,NA,2,4,3
@@ -175,7 +175,7 @@ Social-economic,Organization,Friedman,Friedman29,Modular infrastructure,2,Excell
 Social-economic,Learning,Friedman,Friedman31,Knowledge diversity,3,Excellent,High,NA,3,4,3
 Social-economic,Learning,Friedman,Friedman32,Knowledge access,2,Excellent,High,NA,2,4,3
 Social-economic,Learning,Friedman,Friedman33,Learning capacity,3,Good,High,NA,3,3,3
-Social-economic,Agency,Friedman,Friedman35,Agency,2,Good,Medium,NA,2,3,2
+Social-economic,Agency,Friedman,Friedman35,Agency,3,Good,Medium,NA,3,3,2
 Goverance,Flexibility,Friedman,Friedman37,Responsive,2,Excellent,High,NA,2,4,3
 Goverance,Organization,Friedman,Friedman39,Participatory,3,Excellent,High,NA,3,4,3
 Goverance,Organization,Friedman,Friedman40,Equitable and inclusive,2,Good,High,NA,2,3,3
@@ -257,16 +257,6 @@ Goverance,Organization,Hollowed,Hollowed44,Polycentric,2,Excellent,Low,yes,2,4,1
 Goverance,Organization,Hollowed,Hollowed45,Cross-scale integration,3,Fair,Medium,yes,3,2,2
 Goverance,Learning,Hollowed,Hollowed47,Adaptive,4,Excellent,High,yes,4,4,3
 Goverance,Agency,Hollowed,Hollowed49,Leadership and initiative,3,Fair,Medium,yes,3,2,2
-Ecological,Assets,Kisara,Kisara1,Population abundance,1,Low,Medium,no,1,1,2
-Ecological,Assets,Kisara,Kisara2,Age structure,4,Excellent,Low,no,4,4,1
-Ecological,Assets,Kisara,Kisara4,Species diversity,4,Excellent,High,yes,4,4,3
-Ecological,Flexibility,Kisara,Kisara6,Adult mobility,4,Fair,Medium,no,4,2,2
-Ecological,Flexibility,Kisara,Kisara9,Dietary flexibility,4,Good,Medium,NA,4,3,2
-Ecological,Flexibility,Kisara,Kisara10,Habitat diversity,2,Excellent,High,yes,2,4,3
-Ecological,Organization,Kisara,Kisara15,Population modularity,4,Good,Low,yes,4,3,1
-Social-economic,Organization,Kisara,Kisara27,Social capital,3,Fair,High,yes,3,2,3
-Social-economic,Agency,Kisara,Kisara35,Agency,3,Fair,High,yes,3,2,3
-Goverance,Organization,Kisara,Kisara44,Polycentric,2,Fair,Low,NA,2,2,1
 Ecological,Assets,Kleisner,Kleisner1,Population abundance,3,Fair,High,yes,3,2,3
 Ecological,Assets,Kleisner,Kleisner2,Age structure,3,Fair,High,yes,3,2,3
 Ecological,Assets,Kleisner,Kleisner3,Genetic diversity,2,Fair,High,NA,2,2,3
@@ -453,7 +443,7 @@ Goverance,Learning,Pecl,Pecl47,Adaptive,2,Good,High,yes,2,3,3
 Goverance,Agency,Pecl,Pecl49,Leadership and initiative,2,Good,High,yes,2,3,3
 Ecological,Assets,Tokunaga,Tokunaga1,Population abundance,3,Low,Medium,yes,3,1,2
 Ecological,Assets,Tokunaga,Tokunaga2,Age structure,3,Good,Medium,yes,3,3,2
-Ecological,Assets,Tokunaga,Tokunaga3,Genetic diversity,1,Excellent,High,yes,1,4,3
+Ecological,Assets,Tokunaga,Tokunaga3,Genetic diversity,3,Excellent,High,yes,3,4,3
 Ecological,Assets,Tokunaga,Tokunaga4,Species diversity,2,Low,Medium,yes,2,1,2
 Ecological,Flexibility,Tokunaga,Tokunaga6,Adult mobility,1,Excellent,High,no,1,4,3
 Ecological,Flexibility,Tokunaga,Tokunaga7,Larval dispersal,3,Excellent,High,yes,3,4,3
